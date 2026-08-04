@@ -87,43 +87,41 @@ function MemberCard({ member }) {
             .slice(0, 2);
 
     return (
-        <div className="flex-1 w-full min-w-[240px] max-w-[260px] bg-white rounded-xl shadow-sm border border-neutral-100 p-4 xl:p-5 text-center hover:shadow-md transition-shadow flex flex-col items-center justify-start">
-            {/* Avatar */}
+        <div className="flex-1 w-full min-w-[250px] max-w-[275px] bg-white rounded-2xl shadow-sm border border-neutral-100 p-5 text-center hover:shadow-md transition-shadow flex flex-col items-center justify-start">
+            {/* Avatar / Photo Frame */}
             {member.profileUrl ? (
-                <a href={member.profileUrl} target="_blank" rel="noopener noreferrer" className="block relative group flex-shrink-0">
+                <a href={member.profileUrl} target="_blank" rel="noopener noreferrer" className="block relative group flex-shrink-0 w-full mb-4">
                     <div
-                        className="w-20 h-20 xl:w-24 xl:h-24 rounded-2xl mb-3 mx-auto flex items-center justify-center text-xl xl:text-2xl font-bold text-white shadow-md overflow-hidden transition-transform duration-300 group-hover:scale-105"
-                        style={{ backgroundColor: '#003366' }}
+                        className="w-44 h-52 xl:w-48 xl:h-56 rounded-xl mx-auto flex items-center justify-center text-2xl xl:text-3xl font-bold text-white shadow-sm border border-slate-200/80 overflow-hidden transition-all duration-300 group-hover:scale-[1.02] group-hover:shadow-md bg-slate-50"
                     >
                         {member.image ? (
                             <img
                                 src={member.image}
                                 alt={member.name}
                                 onError={(e) => {
-                                    e.target.onerror = null; // prevents looping
-                                    e.target.style.display = 'none'; // hide broken image
-                                    e.target.parentElement.innerHTML = initials; // fallback to initials
+                                    e.target.onerror = null;
+                                    e.target.style.display = 'none';
+                                    e.target.parentElement.innerHTML = `<span class="text-slate-700 font-bold text-2xl">${initials}</span>`;
                                 }}
-                                className="w-full h-full object-cover rounded-2xl"
+                                className="w-full h-full object-cover object-top scale-105"
                             />
                         ) : (
-                            initials
+                            <span className="text-slate-700 font-bold text-2xl">{initials}</span>
                         )}
                     </div>
                 </a>
             ) : (
                 <div
-                    className="w-20 h-20 xl:w-24 xl:h-24 rounded-2xl mb-3 mx-auto flex items-center justify-center text-xl xl:text-2xl font-bold text-white shadow-md overflow-hidden flex-shrink-0"
-                    style={{ backgroundColor: '#003366' }}
+                    className="w-44 h-52 xl:w-48 xl:h-56 rounded-xl mb-4 mx-auto flex items-center justify-center text-2xl xl:text-3xl font-bold text-white shadow-sm border border-slate-200/80 overflow-hidden flex-shrink-0 bg-slate-50"
                 >
                     {member.image ? (
                         <img
                             src={member.image}
                             alt={member.name}
-                            className="w-full h-full object-cover rounded-2xl transition-transform duration-500 hover:scale-110"
+                            className="w-full h-full object-cover object-top scale-105 transition-transform duration-500 hover:scale-110"
                         />
                     ) : (
-                        initials
+                        <span className="text-slate-700 font-bold text-2xl">{initials}</span>
                     )}
                 </div>
             )}
