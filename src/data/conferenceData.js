@@ -44,14 +44,14 @@ export const importantDates = [
     },
     {
         activity: 'Last Date of Paper Submission',
-        date: 'July 31, 2026',
-        oldDate: 'June 30, 2026',
+        date: 'August 31, 2026',
+        oldDate: 'July 31, 2026',
         isDeadline: true,
         link: 'https://cmt3.research.microsoft.com/ICGST2026/Submission/Index',
     },
     {
         activity: 'Acceptance Notification',
-        date: 'August 25, 2026',
+        date: 'Starts from August 25, 2026',
         isDeadline: false,
         link: null,
     },
@@ -68,7 +68,7 @@ export const importantDates = [
         link: 'coming_soon',
     },
     {
-        activity: 'Regular Registration Closed',
+        activity: 'Regular Online Registration Closed',
         date: 'October 1, 2026',
         isDeadline: true,
         link: 'coming_soon',

@@ -7,7 +7,7 @@ export const honoraryGeneralChairs = [
         affiliation: 'ABV-IIITM, Gwalior',
         email: null,
         profileUrl: 'https://www.iiitm.ac.in/index.php/en/component/splms/teacher/prof-sri-niwas',
-        image: 'https://www.iiitm.ac.in/images/demo/teachers/1650440085_Prof.-Sri-Niwas-Singh.jpg',
+        image: '/images/committee/sri_niwas_singh.jpg',
     },
     {
         name: 'Dr. Andrii Chub',
@@ -26,7 +26,7 @@ export const generalChairs = [
         affiliation: 'ABV-IIITM, Gwalior',
         email: null,
         profileUrl: 'https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.ManishaPattanaik',
-        image: 'https://www.iiitm.ac.in/images/demo/teachers/1533539179_manishapattanaik.jpg',
+        image: '/images/committee/manisha_pattanaik.jpg',
     },
 ];
 
@@ -37,7 +37,7 @@ export const conferenceChairs = [
         affiliation: 'ABV-IIITM, Gwalior',
         email: null,
         profileUrl: 'https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.VinaySingh',
-        image: 'https://www.iiitm.ac.in/images/demo/teachers/1729266679_Vinay%2010_07_2024%20Photo.JPG',
+        image: '/images/committee/vinay_singh.jpg',
     },
     {
         name: 'Dr. Pinku Ranjan',
@@ -45,7 +45,7 @@ export const conferenceChairs = [
         affiliation: 'ABV-IIITM, Gwalior',
         email: null,
         profileUrl: 'https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.PINKURANJAN',
-        image: 'https://www.iiitm.ac.in/images/demo/teachers/1668597418_DSC_1271.JPG',
+        image: '/images/committee/pinku_ranjan.jpg',
     },
 ];
 
@@ -56,7 +56,7 @@ export const conferenceCoChairs = [
         affiliation: 'Maulana Azad National Institute of Technology (MANIT), Bhopal',
         email: null,
         profileUrl: 'https://www.manit.ac.in/content/dr-yadunath-pathak',
-        image: 'https://media.licdn.com/dms/image/v2/C5103AQG_7WK3tj9goA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1576826302338?e=1779321600&v=beta&t=dLGo7akqFwuFjZe3OKyiABHqhIp23Ff7CTJa-0nq0Jo',
+        image: '/images/committee/yadunath_pathak.jpg',
     },
 ];
 
@@ -67,7 +67,7 @@ export const organizingChairs = [
         affiliation: 'ABV-IIITM, Gwalior',
         email: null,
         profileUrl: 'https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Vijaypal',
-        image: 'https://www.iiitm.ac.in/images/demo/teachers/1723455388_Vijay_Pic.jpg',
+        image: '/images/committee/vijaypal_singh_rathor.jpg',
     },
     {
         name: 'Dr. Rohit Kumar',
@@ -75,7 +75,7 @@ export const organizingChairs = [
         affiliation: 'ABV-IIITM, Gwalior',
         email: null,
         profileUrl: 'https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Rohit',
-        image: 'https://www.iiitm.ac.in/images/demo/teachers/1761456376_formal_photo1.PNG',
+        image: '/images/committee/rohit_kumar.jpg',
     },
     {
         name: 'Dr. Neelesh Yadav',
@@ -83,7 +83,7 @@ export const organizingChairs = [
         affiliation: 'ABV-IIITM, Gwalior',
         email: null,
         profileUrl: 'https://www.iiitm.ac.in/index.php/en/component/splms/teacher/DrNeelesh',
-        image: 'https://www.iiitm.ac.in/images/demo/teachers/1767704998_Dr%20Neelesh.png',
+        image: '/images/committee/neelesh_yadav.jpg',
     },
     {
         name: 'Dr. Vineet Singh',

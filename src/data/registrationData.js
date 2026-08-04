@@ -32,5 +32,5 @@ export const feeStructure = [
 ];
 
 export const registrationNotes = [
-    'Registration charges are inclusive of GST and exclusive of transaction/foreign remittance charges.',
+    'Registration charges are exclusive of GST of 18% and transaction/foreign remittance charges.',
 ];
