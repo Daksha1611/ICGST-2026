@@ -44,8 +44,8 @@ export const importantDates = [
     },
     {
         activity: 'Last Date of Paper Submission',
-        date: 'August 31, 2026',
-        oldDate: 'July 31, 2026',
+        date: 'September 30, 2026',
+        oldDate: 'August 31, 2026',
         isDeadline: true,
         link: 'https://cmt3.research.microsoft.com/ICGST2026/Submission/Index',
     },
