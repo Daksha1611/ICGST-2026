@@ -65,7 +65,7 @@ export default function PaperSubmissionPage() {
                             <ul className="text-slate-600 text-sm space-y-2 m-0 p-0 list-none">
                                 <li className="flex items-center gap-2">
                                     <span className="w-2 h-2 rounded-full bg-red-500"></span>
-                                    <span>Paper Submission: <strong className="text-slate-900">August 31, 2026</strong></span>
+                                    <span>Paper Submission: <strong className="text-slate-900">September 30, 2026</strong></span>
                                 </li>
                                 <li className="flex items-center gap-2">
                                     <span className="w-2 h-2 rounded-full bg-blue-500"></span>
