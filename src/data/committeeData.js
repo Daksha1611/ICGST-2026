@@ -95,6 +95,85 @@ export const organizingChairs = [
     },
 ];
 
+export const trackChairs = [
+    {
+        track: 'Track 1',
+        members: [
+            {
+                name: 'Dr. Neelesh Yadav',
+                designation: 'Assistant Professor',
+                affiliation: 'Department of EEE, ABV-IIITM, Gwalior, (M.P.)',
+                email: null,
+                profileUrl: 'https://www.iiitm.ac.in/index.php/en/component/splms/teacher/DrNeelesh',
+                image: '/images/committee/neelesh_yadav.jpg',
+            },
+        ],
+    },
+    {
+        track: 'Track 2',
+        members: [
+            {
+                name: 'Dr. Vijaypal Singh Rathor',
+                designation: 'Assistant Professor',
+                affiliation: 'Department of IT, ABV-IIITM Gwalior, (M. P.)',
+                email: null,
+                profileUrl: 'https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Vijaypal',
+                image: '/images/committee/vijaypal_singh_rathor.jpg',
+            },
+            {
+                name: 'Dr. Rohit Kumar',
+                designation: 'Assistant Professor',
+                affiliation: 'Department of ES, ABV-IIITM, Gwalior, (M.P.)',
+                email: null,
+                profileUrl: 'https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.Rohit',
+                image: '/images/committee/rohit_kumar.jpg',
+            },
+        ],
+    },
+    {
+        track: 'Track 3',
+        members: [
+            {
+                name: 'Dr. Pinku Ranjan',
+                designation: 'Assistant Professor',
+                affiliation: 'Department of EEE, ABV-IIITM Gwalior, (M. P.)',
+                email: null,
+                profileUrl: 'https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.PINKURANJAN',
+                image: '/images/committee/pinku_ranjan.jpg',
+            },
+            {
+                name: 'Dr. Rachit Jain',
+                designation: 'Assistant Professor',
+                affiliation: 'Department of CDOE, Manipal University Jaipur, Rajasthan',
+                email: null,
+                profileUrl: null,
+                image: null,
+            },
+        ],
+    },
+    {
+        track: 'Track 4',
+        members: [
+            {
+                name: 'Dr. Vinay Singh',
+                designation: 'Associate Professor',
+                affiliation: 'Department of Management Studies, ABV-IIITM, Gwalior, (M. P.)',
+                email: null,
+                profileUrl: 'https://www.iiitm.ac.in/index.php/en/component/splms/teacher/Dr.VinaySingh',
+                image: '/images/committee/vinay_singh.jpg',
+            },
+            {
+                name: 'Dr. Pooja Jain',
+                designation: 'Associate Professor',
+                affiliation: 'Department of CDOE- Management, Manipal University, Jaipur, Rajasthan',
+                email: null,
+                profileUrl: null,
+                image: null,
+            },
+        ],
+    },
+];
+
 export const contactPerson = {
     name: 'TBD',
     designation: 'Contact Person',
