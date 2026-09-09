@@ -74,11 +74,11 @@ export default function CommitteePage() {
                         {/* Track Chairs */}
                         <div>
                             <h2 className="text-2xl md:text-3xl font-bold text-neutral-900 mb-5 text-center">Track Chairs</h2>
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-5xl mx-auto">
+                            <div className="flex flex-col gap-5 max-w-4xl mx-auto">
                                 {trackChairs.map((track) => (
                                     <div key={track.track} className="bg-white rounded-2xl shadow-sm border border-neutral-100 p-6">
                                         <h3 className="text-base font-bold text-primary-700 uppercase tracking-wider mb-4">{track.track}</h3>
-                                        <div className="flex flex-col gap-4">
+                                        <div className="flex flex-wrap gap-x-10 gap-y-4">
                                             {track.members.map((member, index) => (
                                                 <TrackChairEntry key={index} member={member} />
                                             ))}
@@ -96,7 +96,7 @@ export default function CommitteePage() {
 
 function TrackChairEntry({ member }) {
     return (
-        <div className="border-l-2 border-primary-100 pl-4">
+        <div className="border-l-2 border-primary-100 pl-4 min-w-[220px] max-w-xs">
             <p className="text-base font-bold text-neutral-900 leading-snug">{member.name}</p>
             {member.designation && (
                 <p className="text-xs font-semibold text-primary-700 uppercase tracking-wider mt-0.5">{member.designation}</p>
