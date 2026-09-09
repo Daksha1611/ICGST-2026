@@ -4,6 +4,7 @@ import {
     conferenceChairs,
     conferenceCoChairs,
     organizingChairs,
+    trackChairs,
 } from '../data/committeeData';
 
 import HeroSection from '../components/home/HeroSection';
@@ -66,6 +67,23 @@ export default function CommitteePage() {
                             <div className="flex flex-wrap justify-center items-stretch gap-4">
                                 {organizingChairs.map((member, index) => (
                                     <MemberCard key={index} member={member} />
+                                ))}
+                            </div>
+                        </div>
+
+                        {/* Track Chairs */}
+                        <div>
+                            <h2 className="text-2xl md:text-3xl font-bold text-neutral-900 mb-5 text-center">Track Chairs</h2>
+                            <div className="flex flex-col gap-8">
+                                {trackChairs.map((track) => (
+                                    <div key={track.track}>
+                                        <h3 className="text-lg md:text-xl font-semibold text-primary-700 mb-4 text-center">{track.track}</h3>
+                                        <div className="flex flex-wrap justify-center items-stretch gap-4">
+                                            {track.members.map((member, index) => (
+                                                <MemberCard key={index} member={member} />
+                                            ))}
+                                        </div>
+                                    </div>
                                 ))}
                             </div>
                         </div>
