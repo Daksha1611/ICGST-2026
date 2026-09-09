@@ -95,6 +95,64 @@ export const organizingChairs = [
     },
 ];
 
+export const trackChairs = [
+    {
+        track: 'Track 1',
+        members: [
+            {
+                name: 'Dr. Neelesh Yadav',
+                designation: 'Assistant Professor',
+                affiliation: 'Department of EEE, ABV-IIITM, Gwalior, (M.P.)',
+            },
+        ],
+    },
+    {
+        track: 'Track 2',
+        members: [
+            {
+                name: 'Dr. Vijaypal Singh Rathor',
+                designation: 'Assistant Professor',
+                affiliation: 'Department of IT, ABV-IIITM Gwalior, (M. P.)',
+            },
+            {
+                name: 'Dr. Rohit Kumar',
+                designation: 'Assistant Professor',
+                affiliation: 'Department of ES, ABV-IIITM, Gwalior, (M.P.)',
+            },
+        ],
+    },
+    {
+        track: 'Track 3',
+        members: [
+            {
+                name: 'Dr. Pinku Ranjan',
+                designation: 'Assistant Professor',
+                affiliation: 'Department of EEE, ABV-IIITM Gwalior, (M. P.)',
+            },
+            {
+                name: 'Dr. Rachit Jain',
+                designation: 'Assistant Professor',
+                affiliation: 'Department of CDOE, Manipal University Jaipur, Rajasthan',
+            },
+        ],
+    },
+    {
+        track: 'Track 4',
+        members: [
+            {
+                name: 'Dr. Vinay Singh',
+                designation: 'Associate Professor',
+                affiliation: 'Department of Management Studies, ABV-IIITM, Gwalior, (M. P.)',
+            },
+            {
+                name: 'Dr. Pooja Jain',
+                designation: 'Associate Professor',
+                affiliation: 'Department of CDOE- Management, Manipal University, Jaipur, Rajasthan',
+            },
+        ],
+    },
+];
+
 export const contactPerson = {
     name: 'TBD',
     designation: 'Contact Person',
