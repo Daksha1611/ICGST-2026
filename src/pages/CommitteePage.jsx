@@ -74,13 +74,13 @@ export default function CommitteePage() {
                         {/* Track Chairs */}
                         <div>
                             <h2 className="text-2xl md:text-3xl font-bold text-neutral-900 mb-5 text-center">Track Chairs</h2>
-                            <div className="flex flex-col gap-8">
+                            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 max-w-5xl mx-auto">
                                 {trackChairs.map((track) => (
-                                    <div key={track.track}>
-                                        <h3 className="text-lg md:text-xl font-semibold text-primary-700 mb-4 text-center">{track.track}</h3>
-                                        <div className="flex flex-wrap justify-center items-stretch gap-4">
+                                    <div key={track.track} className="bg-white rounded-2xl shadow-sm border border-neutral-100 p-6">
+                                        <h3 className="text-base font-bold text-primary-700 uppercase tracking-wider mb-4">{track.track}</h3>
+                                        <div className="flex flex-col gap-4">
                                             {track.members.map((member, index) => (
-                                                <MemberCard key={index} member={member} />
+                                                <TrackChairEntry key={index} member={member} />
                                             ))}
                                         </div>
                                     </div>
@@ -90,6 +90,18 @@ export default function CommitteePage() {
                     </div>
                 </div>
             </section>
+        </div>
+    );
+}
+
+function TrackChairEntry({ member }) {
+    return (
+        <div className="border-l-2 border-primary-100 pl-4">
+            <p className="text-base font-bold text-neutral-900 leading-snug">{member.name}</p>
+            {member.designation && (
+                <p className="text-xs font-semibold text-primary-700 uppercase tracking-wider mt-0.5">{member.designation}</p>
+            )}
+            <p className="text-sm text-neutral-600 leading-snug mt-0.5">{member.affiliation}</p>
         </div>
     );
 }
