@@ -119,6 +119,11 @@ export const trackChairs = [
                 designation: 'Assistant Professor',
                 affiliation: 'Department of ES, ABV-IIITM, Gwalior, (M.P.)',
             },
+            {
+                name: 'Dr. Bhanu Chander',
+                designation: 'Assistant Professor',
+                affiliation: 'Department of IT, ABV-IIITM Gwalior, (M. P.)',
+            },
         ],
     },
     {
