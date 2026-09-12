@@ -54,7 +54,7 @@ export default function RegistrationFeeTable() {
                 <h3 className="text-lg font-semibold text-neutral-900 mb-3">Important Notes</h3>
                 <ul className="space-y-2">
                     {registrationNotes.map((note, index) => (
-                        <li key={index} className="flex items-start gap-2 text-base font-bold text-neutral-900">
+                        <li key={index} className="flex items-start gap-2 text-sm font-bold text-neutral-900">
                             <span className="w-1.5 h-1.5 rounded-full bg-primary-600 mt-2 shrink-0" />
                             {note}
                         </li>
@@ -68,7 +68,7 @@ export default function RegistrationFeeTable() {
                 <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3">
                     {accountDetails.map((detail, index) => (
                         <div key={index} className="flex flex-wrap items-baseline gap-2">
-                            <dt className="text-sm font-semibold text-neutral-600 min-w-[110px]">{detail.label}:</dt>
+                            <dt className="text-base font-semibold text-neutral-600 min-w-[110px]">{detail.label}:</dt>
                             <dd className="text-base font-bold text-neutral-900 tracking-wide">{detail.value}</dd>
                         </div>
                     ))}
@@ -79,7 +79,7 @@ export default function RegistrationFeeTable() {
             <div className="bg-primary-50 border border-primary-100 rounded-lg p-6 flex flex-col sm:flex-row sm:items-center gap-4 justify-between">
                 <div>
                     <h3 className="text-xl font-bold text-neutral-900">Registration Link</h3>
-                    <p className="text-sm text-neutral-600 mt-1">Complete your registration using the conference registration form.</p>
+                    <p className="text-base text-neutral-600 mt-1">Complete your registration using the conference registration form.</p>
                 </div>
                 <a
                     href={registrationLink}
