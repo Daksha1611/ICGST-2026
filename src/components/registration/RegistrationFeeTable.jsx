@@ -1,4 +1,4 @@
-import { feeStructure, registrationNotes } from '../../data/registrationData';
+import { feeStructure, registrationNotes, accountDetails, registrationLink } from '../../data/registrationData';
 
 export default function RegistrationFeeTable() {
     return (
@@ -54,12 +54,41 @@ export default function RegistrationFeeTable() {
                 <h3 className="text-lg font-semibold text-neutral-900 mb-3">Important Notes</h3>
                 <ul className="space-y-2">
                     {registrationNotes.map((note, index) => (
-                        <li key={index} className="flex items-start gap-2 text-sm text-neutral-700">
+                        <li key={index} className="flex items-start gap-2 text-base font-bold text-neutral-900">
                             <span className="w-1.5 h-1.5 rounded-full bg-primary-600 mt-2 shrink-0" />
                             {note}
                         </li>
                     ))}
                 </ul>
+            </div>
+
+            {/* Account Details */}
+            <div className="bg-white border-2 border-[#003366] rounded-lg p-6">
+                <h3 className="text-xl font-bold text-neutral-900 mb-4">Account Details</h3>
+                <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3">
+                    {accountDetails.map((detail, index) => (
+                        <div key={index} className="flex flex-wrap items-baseline gap-2">
+                            <dt className="text-sm font-semibold text-neutral-600 min-w-[110px]">{detail.label}:</dt>
+                            <dd className="text-base font-bold text-neutral-900 tracking-wide">{detail.value}</dd>
+                        </div>
+                    ))}
+                </dl>
+            </div>
+
+            {/* Registration Link */}
+            <div className="bg-primary-50 border border-primary-100 rounded-lg p-6 flex flex-col sm:flex-row sm:items-center gap-4 justify-between">
+                <div>
+                    <h3 className="text-xl font-bold text-neutral-900">Registration Link</h3>
+                    <p className="text-sm text-neutral-600 mt-1">Complete your registration using the conference registration form.</p>
+                </div>
+                <a
+                    href={registrationLink}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center px-6 py-3 rounded-lg font-bold !text-white bg-[#002855] hover:bg-[#001a3a] transition-colors whitespace-nowrap shrink-0"
+                >
+                    Click Here for Registration
+                </a>
             </div>
 
             {/* Registration Instructions */}
