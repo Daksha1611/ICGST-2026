@@ -18,7 +18,7 @@ export default function RegistrationPage() {
                     title="Registration Details"
                     subtitle="Select your participation type and complete your registration"
                 />
-                <div className="max-w-4xl mx-auto">
+                <div className="max-w-6xl mx-auto">
                     <RegistrationFeeTable />
                 </div>
             </SectionContainer>

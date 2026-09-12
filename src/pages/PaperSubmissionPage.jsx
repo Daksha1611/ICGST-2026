@@ -12,7 +12,7 @@ export default function PaperSubmissionPage() {
                 isHomePage={false}
             />
             <SectionContainer background="white">
-                <div className="max-w-4xl mx-auto px-4 prose prose-slate prose-blue lg:prose-lg mt-8">
+                <div className="max-w-5xl mx-auto px-4 prose prose-slate prose-blue lg:prose-lg mt-8">
                     <h3 className="px-4 py-2 bg-slate-100 rounded-lg inline-block text-xl font-bold text-slate-900 mb-4">Submission Guidelines</h3>
                     <ul className="text-slate-700 list-disc pl-6">
                         <li><strong>Page limit:</strong> Maximum of <strong>6 pages</strong> (10-point, IEEE two-column), including figures, tables, and references.</li>
@@ -69,7 +69,7 @@ export default function PaperSubmissionPage() {
                                 </li>
                                 <li className="flex items-center gap-2">
                                     <span className="w-2 h-2 rounded-full bg-blue-500"></span>
-                                    <span>Acceptance Notification: <strong className="text-slate-900">Starts from August 25, 2026</strong></span>
+                                    <span>Acceptance Notification: <strong className="text-slate-900">Starts on September 15, 2026</strong></span>
                                 </li>
                             </ul>
                         </div>

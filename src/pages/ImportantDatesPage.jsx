@@ -11,7 +11,7 @@ export default function ImportantDatesPage() {
             />
 
             <section className="py-8 md:py-12">
-                <div className="max-w-4xl mx-auto px-4">
+                <div className="max-w-6xl mx-auto px-4">
                     <SectionHeader
                         title="Conference Timeline"
                         subtitle="Plan your submission and participation according to these important milestones"

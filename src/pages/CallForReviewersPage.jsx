@@ -10,7 +10,7 @@ export default function CallForReviewersPage() {
             />
 
             <section className="py-12 md:py-16">
-                <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="bg-white rounded-2xl shadow-sm border border-neutral-200 overflow-hidden">
                         <div className="bg-[#002855] px-6 py-8 text-center">
                             <h2 className="text-3xl font-bold text-white mb-2">Call for Reviewers</h2>
