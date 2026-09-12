@@ -22,15 +22,18 @@ export const feeStructure = [
         regularIndian: '₹ 9,000',
         regularForeign: '$175',
     },
-    {
-        category: 'Additional Page Charges',
-        earlyBirdIndian: '₹ 1,000',
-        earlyBirdForeign: '$20',
-        regularIndian: '₹ 1,000',
-        regularForeign: '$20',
-    },
 ];
 
 export const registrationNotes = [
     'Registration charges are exclusive of GST of 18% and transaction/foreign remittance charges.',
+];
+
+export const registrationLink = 'https://forms.gle/4VaGGCanxwKKKfDW8';
+
+export const accountDetails = [
+    { label: 'Bank Name', value: 'Bank of India' },
+    { label: 'Account No.', value: '946210210000098' },
+    { label: 'IFSC Code', value: 'BKID0009462' },
+    { label: 'MICR Code', value: '474013010' },
+    { label: 'Branch', value: 'IIITM Campus, Gwalior' },
 ];

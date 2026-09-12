@@ -10,7 +10,7 @@ export default function TravelVisaPage() {
             />
 
             <SectionContainer background="white">
-                <div className="max-w-4xl mx-auto space-y-12">
+                <div className="max-w-6xl mx-auto space-y-12">
                     {/* Welcome */}
                     <div className="prose prose-lg max-w-none text-slate-600">
                         <p className="text-lg leading-relaxed">

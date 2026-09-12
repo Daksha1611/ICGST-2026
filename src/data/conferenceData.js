@@ -1,4 +1,6 @@
 // Conference data - ICGST-2026
+import { registrationLink } from './registrationData';
+
 export const conferenceInfo = {
     shortTitle: 'ICGST-2026',
     fullTitle: 'International Conference on Green and Sustainable Technologies—2026',
@@ -51,27 +53,27 @@ export const importantDates = [
     },
     {
         activity: 'Acceptance Notification',
-        date: 'Starts from August 25, 2026',
+        date: 'Starts on September 15, 2026',
         isDeadline: false,
         link: null,
     },
     {
         activity: 'Camera-Ready Submission',
-        date: 'September 5, 2026',
+        date: 'September 30, 2026',
         isDeadline: true,
         link: 'https://cmt3.research.microsoft.com/ICGST2026/Submission/Index',
     },
     {
         activity: 'Early Bird Registration Closed',
-        date: 'September 15, 2026',
+        date: 'September 30, 2026',
         isDeadline: true,
-        link: 'coming_soon',
+        link: registrationLink,
     },
     {
         activity: 'Regular Online Registration Closed',
-        date: 'October 1, 2026',
+        date: 'October 10, 2026',
         isDeadline: true,
-        link: 'coming_soon',
+        link: registrationLink,
     },
     {
         activity: 'Conference Date',

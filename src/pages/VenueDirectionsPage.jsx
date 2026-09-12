@@ -10,7 +10,7 @@ export default function VenueDirectionsPage() {
             />
 
             <SectionContainer background="white">
-                <div className="max-w-4xl mx-auto space-y-12">
+                <div className="max-w-6xl mx-auto space-y-12">
                     {/* Venue Card */}
                     <div className="rounded-3xl p-8 md:p-10 text-white shadow-xl relative overflow-hidden" style={{ backgroundColor: '#002855' }}>
                         <div className="absolute top-0 right-0 w-64 h-64 bg-white/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2"></div>
