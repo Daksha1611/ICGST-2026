@@ -10,13 +10,13 @@ export default function RegistrationFeeTable() {
                         {/* Header Row 1 */}
                         <tr>
                             <th colSpan="5" className="border border-[#003366] p-3 text-center font-bold text-xl" style={{ backgroundColor: '#002855', color: '#ffffff' }}>
-                                Registration Charges
+                                Registration Charges with 18% GST
                             </th>
                         </tr>
                         {/* Header Row 2 */}
                         <tr>
                             <th rowSpan="2" className="border border-[#003366] p-3 text-center font-bold" style={{ backgroundColor: '#003366', color: '#ffffff' }}>
-                                Author&apos;s Category
+                                Participant Category
                             </th>
                             <th colSpan="2" className="border border-[#003366] p-3 text-center font-bold" style={{ backgroundColor: '#003366', color: '#ffffff' }}>
                                 Early Bird

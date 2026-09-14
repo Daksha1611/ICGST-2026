@@ -2,30 +2,30 @@
 
 export const feeStructure = [
     {
-        category: 'Student (UG/PG/PhD)',
-        earlyBirdIndian: '₹ 5,000',
-        earlyBirdForeign: '$100',
-        regularIndian: '₹ 7,000',
-        regularForeign: '$125',
+        category: 'Student',
+        earlyBirdIndian: '₹ 5,900',
+        earlyBirdForeign: '$118.0',
+        regularIndian: '₹ 8,260',
+        regularForeign: '$147.5',
     },
     {
-        category: 'Post-Doc/Faculty/Academician',
-        earlyBirdIndian: '₹ 6,000',
-        earlyBirdForeign: '$125',
-        regularIndian: '₹ 8,000',
-        regularForeign: '$150',
+        category: 'Faculty/Academician/Post-Doc',
+        earlyBirdIndian: '₹ 7,080',
+        earlyBirdForeign: '$147.5',
+        regularIndian: '₹ 9,440',
+        regularForeign: '$177.0',
     },
     {
         category: 'Industry Professional',
-        earlyBirdIndian: '₹ 7,000',
-        earlyBirdForeign: '$150',
-        regularIndian: '₹ 9,000',
-        regularForeign: '$175',
+        earlyBirdIndian: '₹ 8,260',
+        earlyBirdForeign: '$177.0',
+        regularIndian: '₹ 10,620',
+        regularForeign: '$206.5',
     },
 ];
 
 export const registrationNotes = [
-    'Registration charges are exclusive of GST of 18% and transaction/foreign remittance charges.',
+    'Registration charges are inclusive of 18% GST and exclusive of transaction/foreign remittance charges.',
 ];
 
 export const registrationLink = 'https://forms.gle/4VaGGCanxwKKKfDW8';
