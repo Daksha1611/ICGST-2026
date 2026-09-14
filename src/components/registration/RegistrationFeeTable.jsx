@@ -10,13 +10,13 @@ export default function RegistrationFeeTable() {
                         {/* Header Row 1 */}
                         <tr>
                             <th colSpan="5" className="border border-[#003366] p-3 text-center font-bold text-xl" style={{ backgroundColor: '#002855', color: '#ffffff' }}>
-                                Registration Charges
+                                Registration Charges with 18% GST
                             </th>
                         </tr>
                         {/* Header Row 2 */}
                         <tr>
                             <th rowSpan="2" className="border border-[#003366] p-3 text-center font-bold" style={{ backgroundColor: '#003366', color: '#ffffff' }}>
-                                Author&apos;s Category
+                                Participant Category
                             </th>
                             <th colSpan="2" className="border border-[#003366] p-3 text-center font-bold" style={{ backgroundColor: '#003366', color: '#ffffff' }}>
                                 Early Bird
@@ -68,7 +68,7 @@ export default function RegistrationFeeTable() {
                 <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3">
                     {accountDetails.map((detail, index) => (
                         <div key={index} className="flex flex-wrap items-baseline gap-2">
-                            <dt className="text-base font-semibold text-neutral-600 min-w-[110px]">{detail.label}:</dt>
+                            <dt className="text-base font-semibold text-neutral-600 min-w-[130px]">{detail.label}:</dt>
                             <dd className="text-base font-bold text-neutral-900 tracking-wide">{detail.value}</dd>
                         </div>
                     ))}
