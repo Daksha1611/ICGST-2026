@@ -31,9 +31,10 @@ export const registrationNotes = [
 export const registrationLink = 'https://forms.gle/4VaGGCanxwKKKfDW8';
 
 export const accountDetails = [
-    { label: 'Bank Name', value: 'Bank of India' },
+    { label: 'Account Name', value: 'ABVIIITMG COE STGM' },
     { label: 'Account No.', value: '946210210000098' },
+    { label: 'Bank Name', value: 'Bank of India' },
+    { label: 'Branch', value: 'IIITM Campus, Morena Link Road, Gwalior, M.P.-474003' },
     { label: 'IFSC Code', value: 'BKID0009462' },
     { label: 'MICR Code', value: '474013010' },
-    { label: 'Branch', value: 'IIITM Campus, Gwalior' },
 ];

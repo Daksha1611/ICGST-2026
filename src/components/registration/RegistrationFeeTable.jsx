@@ -68,7 +68,7 @@ export default function RegistrationFeeTable() {
                 <dl className="grid grid-cols-1 sm:grid-cols-2 gap-x-8 gap-y-3">
                     {accountDetails.map((detail, index) => (
                         <div key={index} className="flex flex-wrap items-baseline gap-2">
-                            <dt className="text-base font-semibold text-neutral-600 min-w-[110px]">{detail.label}:</dt>
+                            <dt className="text-base font-semibold text-neutral-600 min-w-[130px]">{detail.label}:</dt>
                             <dd className="text-base font-bold text-neutral-900 tracking-wide">{detail.value}</dd>
                         </div>
                     ))}
