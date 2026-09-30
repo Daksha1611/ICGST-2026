@@ -49,17 +49,6 @@ export const conferenceChairs = [
     },
 ];
 
-export const conferenceCoChairs = [
-    {
-        name: 'Dr. Yadunath Pathak',
-        designation: null,
-        affiliation: 'Maulana Azad National Institute of Technology (MANIT), Bhopal',
-        email: null,
-        profileUrl: 'https://www.manit.ac.in/content/dr-yadunath-pathak',
-        image: '/images/committee/yadunath_pathak.jpg',
-    },
-];
-
 export const organizingChairs = [
     {
         name: 'Dr. Vijaypal Singh Rathor',

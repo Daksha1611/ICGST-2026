@@ -2,7 +2,6 @@ import {
     honoraryGeneralChairs,
     generalChairs,
     conferenceChairs,
-    conferenceCoChairs,
     organizingChairs,
     trackChairs,
 } from '../data/committeeData';
@@ -46,16 +45,6 @@ export default function CommitteePage() {
                             <h2 className="text-2xl md:text-3xl font-bold text-neutral-900 mb-5 text-center">Conference Chairs</h2>
                             <div className="flex flex-wrap justify-center items-stretch gap-4">
                                 {conferenceChairs.map((member, index) => (
-                                    <MemberCard key={index} member={member} />
-                                ))}
-                            </div>
-                        </div>
-
-                        {/* Conference Co-Chair */}
-                        <div>
-                            <h2 className="text-2xl md:text-3xl font-bold text-neutral-900 mb-5 text-center">Conference Co-Chair</h2>
-                            <div className="flex flex-wrap justify-center items-stretch gap-4">
-                                {conferenceCoChairs.map((member, index) => (
                                     <MemberCard key={index} member={member} />
                                 ))}
                             </div>
