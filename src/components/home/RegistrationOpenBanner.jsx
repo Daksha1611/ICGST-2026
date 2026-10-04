@@ -1,4 +1,5 @@
 import { registrationLink } from '../../data/registrationData';
+import { conferenceInfo } from '../../data/conferenceData';
 
 export default function RegistrationOpenBanner() {
     return (
@@ -10,7 +11,7 @@ export default function RegistrationOpenBanner() {
                         Registrations Open
                     </span>
                     <span className="text-base md:text-lg text-neutral-600">
-                        Early bird closes <strong className="font-semibold text-neutral-900">October 5, 2026</strong>
+                        Conference <strong className="font-semibold text-neutral-900">{conferenceInfo.dates}</strong> at {conferenceInfo.venue.shortName}
                     </span>
                     <a
                         href={registrationLink}
