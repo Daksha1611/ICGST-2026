@@ -98,11 +98,11 @@ export default function PaperSubmissionPage() {
                             </ul>
                         </div>
                         <div className="bg-white rounded-xl shadow-sm border border-slate-200 p-5">
-                            <h4 className="text-base font-bold text-slate-900 m-0">PDF eXpress & copyright</h4>
+                            <h4 className="text-base font-bold text-slate-900 m-0">Copyright</h4>
                             <ul className="mt-3 space-y-2 text-slate-700 list-disc pl-6">
-                                <li>Validate the final PDF using <a href="https://ieee-pdf-express.org/" target="_blank" rel="noopener noreferrer">IEEE PDF eXpress</a> if required for this conference (details are provided in CMT / author instructions).</li>
-                                <li>Complete the conference electronic copyright form (ECF) via the link provided in CMT after uploading the camera-ready PDF.</li>
+                                <li>Complete the conference electronic copyright form (ECF) via CMT or through email after uploading the camera-ready PDF.</li>
                             </ul>
+                            <p className="mt-3 text-slate-700 m-0"><strong>Note:</strong> Conference Committee policy prohibits plagiarism. Manuscripts exceeding 15% plagiarism or failing to meet conference requirements will not be considered for publication.</p>
                         </div>
                     </div>
 
@@ -118,7 +118,7 @@ export default function PaperSubmissionPage() {
                         </div>
                         <div className="flex gap-4 bg-white border border-slate-200 rounded-xl p-5">
                             <span className="w-8 h-8 rounded-lg bg-primary-50 text-primary-700 flex items-center justify-center font-bold shrink-0">3</span>
-                            <p className="text-base text-slate-700 m-0">The <strong>conference electronic copyright form (ECF)</strong> must be completed as instructed in CMT.</p>
+                            <p className="text-base text-slate-700 m-0">The <strong>conference electronic copyright form (ECF)</strong> must be completed via CMT or through email as instructed.</p>
                         </div>
                     </div>
 
